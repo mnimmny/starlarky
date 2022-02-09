@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "locallarky"
+version = "0.1.0"
+description = ""
+authors = ["VGS <dev@verygoodsecurity-dot-com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pycryptodome = "3.10.1"
+lxml = "4.5.2"
+defusedxml = "0.7.1"
+cryptography = "35.0.0"
+pyiso8583 = "2.1.0"
+python-jose = {extras = ["cryptography"], version = "^3.3.0"}
+option = "1.0.3"
+future = "0.18.2"
+six = "1.16.0"
+assertpy = "1.1"
+xmlsig = "0.1.7"
+multidict = "5.2.0"
+jsonpath-ng = "1.5.3"
+luhn = "0.2.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
