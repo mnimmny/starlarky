@@ -231,7 +231,7 @@ test = ["pyopenssl", "flake8-blind-except (==0.1.1)", "flake8-debugger (==1.4.0)
 
 [metadata]
 lock-version = "1.1"
-python-versions = "^3.8"
+python-versions = "^3.7"
 content-hash = "ff0d20e4181c53fa775e5d53868bde5e1c4e7d18348d71bf3a702844dfa7e299"
 
 [metadata.files]

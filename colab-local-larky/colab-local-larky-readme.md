@@ -16,7 +16,8 @@ Hopefully this makes it easier to construct example use cases in jupyternotebook
 ```import sys
 import os
 sys.path.insert(0,'/content/starlarky/')
-os.chdir('./starlarky/colab-local-larky')```
+os.chdir('./starlarky/colab-local-larky')
+```
 
 4. install poetry, run
 
@@ -26,5 +27,5 @@ os.chdir('./starlarky/colab-local-larky')```
 ```
 
 ### Caveats
-1. Colab's python version 3.7.2
-2. 
+1. Colab's python version is 3.7.2, Repl requires i think python 3.8+
+
